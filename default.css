@@ -153,6 +153,11 @@ h6 { font-size: 16px;}
     padding-bottom: 50px;
 }
 
+.choose-theme{
+    text-align: center;
+    line-height: 0;
+}
+
 #profile-pic{
     display: block;
     margin: 0 auto;
@@ -204,7 +209,7 @@ h6 { font-size: 16px;}
     background-color: #7E4C74;
 }
 
-#settings-node{
+.settings-node{
     font-size: 12px;
     font-style: italic;
     text-align: center;
@@ -368,6 +373,22 @@ h6 { font-size: 16px;}
     color: #fff;
     background-color: var(--buttonColor);
     border: none;
+}
+
+/* === Language settings === */
+#en-greeting, #ru-greeting, #lang-to-en, #lang-to-ru, 
+#en-theme, #ru-theme, #en-settings-node, #ru-settings-node, 
+#en-what-do, #ru-what-do, #en-me-synopsis, #ru-me-synopsis, 
+#en-about-title, #ru-about-title, #en-about-text, #ru-about-text, 
+#en-skills, #ru-skills, #en-skills-summary, #ru-skills-summary, 
+#en-social-links, #ru-social-links, #en-projects-title, #ru-projects-title, 
+#en-post-title, #ru-post-title, #en-post-intro, #ru-post-intro {
+    display: none;
+    transition: .3s;
+}
+
+.change-lang{
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1200px){

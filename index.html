@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Dimitri Bogachev</title>
+    <title id="en-title">Dimitri Bogachev</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,7 +23,8 @@
     <section class="s1">
         <div class="main-container">
             <div class="greeting-wrapper">
-                <h1>Hi, I'm Dimitri Bogachev</h1>
+                <h1 id="en-greeting">Hi, I'm Dimitri Bogachev</h1>
+                <h1 id="ru-greeting">Я Дмитрий Богачев</h1>
             </div>
 
             <div class="intro-wrapper">
@@ -43,13 +44,16 @@
                     </div>
 
                     <ul id="navigation">
+                        <p id="lang-to-en" class="change-lang">Change language</p>
+                        <p id="lang-to-ru" class="change-lang">Поменять язык</p>
                         <!-- <li><a href="#">Contact</a></li> -->
                     </ul>
                 </div>
 
                 <div class="left-column">
                     <img id="profile-pic" src="images/dimitri.jpg">
-                    <h5 style="text-align: center; line-height: 0;">Personalize Theme</h5>
+                    <h5 id="en-theme" class="choose-theme">Personalize Theme</h5>
+                    <h5 id="ru-theme" class="choose-theme">Выбрать тему</h5>
 
                     <div id="theme-options-wrapper">
                         <div data-mode="light" id="light-mode" class="theme-dot"></div>
@@ -58,8 +62,10 @@
                         <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
                     </div>
 
-                    <p id="settings-node">*Theme settings will be saved for<br>
+                    <p id="en-settings-node" class="settings-node">*Theme and language settings will be saved for<br>
                         your next visit</p>
+                    <p id="ru-settings-node" class="settings-node">*Тема и язык будут сохранены для следующего
+                        визита</p>
                 </div>
 
                 <div class="right-column">
@@ -69,9 +75,13 @@
                             <div id="corner-tl" class="corner"></div>
                             <div id="corner-tr" class="corner"></div>
 
-                            <h3>What I Do</h3>
-                            <p>I am an anspiring young developer using Python, Django, SQL 
+                            <h3 id="en-what-do">What I Do</h3>
+                            <h3 id="ru-what-do">Чем я занимаюсь</h3>
+
+                            <p id="en-me-synopsis">I am an anspiring young developer using Python, Django, SQL, 
                                 HTML/CSS, and a little bit of JS. I also use C/C++ for hobby videogames projects.</p>
+                            <p id="ru-me-synopsis">Я начинающий разработчик, использующий Python, Django, SQL, 
+                                HTML/CSS и неменого JS. Я также часто использую C/C++ в хобби видеоиграх.</p>
 
                             <div id="corner-br" class="corner"></div>
                             <div id="corner-bl" class="corner"></div>
@@ -87,24 +97,30 @@
 
             <div class="about-wrapper">
                 <div class="about-me">
-                    <h4>More about me</h4>
+                    <h4 id="en-about-title">More about me</h4>
+                    <h4 id="ru-about-title">Обо мне</h4>
 
-                    <p>I love learning new things and making something fun and useful so 
-                        I'm never sitting straight and always trying to build something new!
-                    </p>
+                    <p id="en-about-text">I love learning new things and making something fun and useful so 
+                        I'm never sitting straight!</p>
+                    <p id="ru-about-text">Я люблю изучать что-то новое и создавать что-то нове и интересное 
+                        поэтому я никогда не сижу на месте и всегда в работе!</p>
 
-                    <p>When I get familiar with something, I keep 
+                    <p id="en-about-text">When I get familiar with something, I keep 
                         going in depth more and more so I can understand 
                         everything about it.</p>
+                    <p id="ru-about-text">Когда я знакомлюсь с чем-то новым, я не 
+                        останавливаюсь на полпути и пытаюсь всё, что только есть.</p>
 
                     <hr>
     
-                    <h4>MY SKILLS</h4>
+                    <h4 id="en-skills">MY SKILLS</h4>
+                    <h4 id="ru-skills">МОИ НАВЫКИ</h4>
     
-                    <p>Junior developer with primary focus on Python, 
+                    <p id="en-skills-summary">Junior developer with primary focus on Python, 
                         SQL and Django<!---: <a target="_blank" href="">
                          Download Resume</a> ---></p>
-                    
+                    <p id="ru-skills-summary">Начинающий разработчик с основным фокусом на Python, 
+                        SQL и Django</p>
                     
                     <div id="skills">
                         <ul>
@@ -128,11 +144,13 @@
                     <img id="social_img" src="images/news1.png">
 
                     <div class="links">
-                        <h3>Find me on GitHub and LinkedIn</h3>
+                        <h3 id="en-social-links">Find me on GitHub and LinkedIn</h3>
+                        <h3 id="ru-social-links">Я на GitHub и LinkedIn</h3>
+
                         <p>Github: <a target="_blank" 
                             href="https://github.com/Migueliot1/">@Migueliot1</a></p>
                         <p>LinkedIn: <a target="_blank" 
-                            href="https://linkedin.com/Migueliot">@Migueliot</a></p>
+                            href="https://www.linkedin.com/in/dmitry-bogachev-815704248/">@Migueliot</a></p>
                     </div>
                 </div>
 
@@ -142,17 +160,23 @@
 
     <section class="s1">
         <div class="main-container">
-            <h3 style="text-align: center;">Some of my past projects</h3>
-            
+            <h3 id="en-projects-title" style="text-align: center;">Some of my past projects</h3>
+            <h3 id="ru-projects-title" style="text-align: center;">Мои предыдущие проекты</h3>
+
             <div class="post-wrapper">
 
                 <div>
                     <div class="post">
                         <img class="thumbnail" src="images/project.png">
                         <div class="post-preview">
-                            <h6 class="post-title">News aggregator website</h6>
-                            <p class="post-intro"> News website made with Django/Python and PostgreSQL.
+                            <h6 id="en-post-title1" class="post-title">News aggregator website</h6>
+                            <p id="en-post-intro1" class="post-intro"> News website made with Django/Python and PostgreSQL.
                                 All latest news from various websites all in one place!
+                            </p>
+
+                            <h6 id="ru-post-title1" class="post-title">Новостной сайт-аггрегатор</h6>
+                            <p id="ru-post-intro1" class="post-intro">Новостной сайт, написанный на Django/Python и PostgreSQL. 
+                                Все последние новсти из разных сайтов в одном месте!
                             </p>
                         </div>
                     </div>
@@ -162,9 +186,14 @@
                     <div class="post">
                         <img class="thumbnail" src="images/devsearch1.png">
                         <div class="post-preview">
-                            <h6 class="post-title">DevSearch</h6>
-                            <p class="post-intro">Platform designed for developers to share 
+                            <h6 id="en-post-title2" class="post-title">DevSearch, a social website for deveopers</h6>
+                            <p id="en-post-intro2" class="post-intro">Platform designed for developers to share 
                                 their projects and rate other's projects. Made with Django/Python and PostgreSQL.</p>
+                            
+                            <h6 id="ru-post-title2" class="post-title">Соцсеть для разработчиков DevSearch</h6>
+                            <p id="ru-post-intro2" class="post-intro">Платформа для разработчиков, чтобы делиться 
+                                своими проектами и оценивать проекты других. Написан на Django/Python и PostgreSQL.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -173,9 +202,16 @@
                     <div class="post">
                         <img class="thumbnail" src="images/telegram_bot.png">
                         <div class="post-preview">
-                            <h6 class="post-title">Telegram News Bot</h6>
-                            <p class="post-intro">Bot made to get fresh news from 
-                                 various websites and post it in the group it's added to. Made with Python and SQLite.</p>
+                            <h6 id="en-post-title3" class="post-title">Telegram News Bot</h6>
+                            <p id="en-post-intro3" class="post-intro">Bot made to get fresh news from 
+                                 various websites and post it in the group it's added to. Made with Python and SQLite.
+                                </p>
+
+                            <h6 id="ru-post-title3" class="post-title">Новостной Telegram бот</h6>
+                            <p id="ru-post-intro3" class="post-intro">Бот для получения последних новостей с различных сайтов 
+                                и отправки и в виде сообщений в группу, в которую бот добавлен. 
+                                Написан на Python и SQLite.
+                            </p>
                         </div>
                     </div>
                 </div>            
